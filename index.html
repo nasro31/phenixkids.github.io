@@ -1,112 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhenixKids - Histoires animées pour enfants</title>
-
-    <!-- SEO -->
-    <meta name="description" content="PhenixKids — Histoires courtes et animées pour enfants en français, anglais et arabe. Apprenez les valeurs de la vie avec des personnages attachants.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://phenixkids.github.io/">
-
-    <!-- TikTok verification — remplace CODE_TIKTOK par le code du TikTok Developer Portal -->
-    <meta name="tiktok-site-verification" content="CODE_TIKTOK">
-
-    <!-- Open Graph (Facebook, WhatsApp, Discord...) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://phenixkids.github.io/">
-    <meta property="og:title" content="PhenixKids - Histoires animées pour enfants">
-    <meta property="og:description" content="Des histoires courtes et amusantes pour apprendre les valeurs de la vie, en français, anglais et arabe.">
-    <meta property="og:image" content="https://phenixkids.github.io/og-image.png">
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:site_name" content="PhenixKids">
-
-    <!-- Twitter / X Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="PhenixKids - Histoires animées pour enfants">
-    <meta name="twitter:description" content="Des histoires courtes et amusantes pour apprendre les valeurs de la vie.">
-    <meta name="twitter:image" content="https://phenixkids.github.io/og-image.png">
-
-    <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #fff8f0;
-            color: #333;
-        }
-        header {
-            text-align: center;
-            padding: 40px 0 20px;
-        }
-        header h1 {
-            color: #e85d04;
-            font-size: 2.5em;
-            margin: 0;
-        }
-        header p {
-            color: #666;
-            font-size: 1.1em;
-        }
-        .links {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 30px 0;
-        }
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1em;
-        }
-        .btn-yt  { background: #FF0000; color: #fff; }
-        .btn-tt  { background: #000; color: #fff; }
-        .btn-yt:hover { background: #cc0000; }
-        .btn-tt:hover { background: #333; }
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #888;
-            font-size: 0.9em;
-        }
-        footer a { color: #e85d04; text-decoration: none; margin: 0 10px; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhenixKids Studio — Histoires animées et publication responsable</title>
+  <meta name="description" content="Découvrez PhenixKids Studio, notre flux de création et de publication d'histoires animées éducatives sur TikTok et YouTube.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#fff5dd">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-    <h1>🐦 PhenixKids</h1>
-    <p>Histoires animées pour enfants — Français · English · عربي</p>
-</header>
-
-<div class="links">
-    <a class="btn btn-yt" href="https://www.youtube.com/@phenixkids" target="_blank" rel="noopener noreferrer">
-        ▶ Chaîne YouTube
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Accueil PhenixKids">
+      <span class="brand-mark" aria-hidden="true">PK</span>
+      <span><strong>PhenixKids</strong><small>Studio d’histoires animées</small></span>
     </a>
-    <a class="btn btn-tt" href="https://www.tiktok.com/@phenixkids" target="_blank" rel="noopener noreferrer">
-        ♪ TikTok
-    </a>
-</div>
-
-<p style="text-align:center; color:#555;">
-    Des histoires courtes et amusantes pour apprendre les valeurs de la vie 🌟
-</p>
-
-<footer>
-    <a href="terms.html">Conditions d'utilisation</a>
-    <a href="privacy.html">Politique de confidentialité</a>
-    <a href="contact.html">Contact</a>
-    <br><br>
-    &copy; 2026 PhenixKids. Tous droits réservés.
-</footer>
-
-</body>
-</html>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+      <a href="#mission">Notre mission</a>
+      <a href="#fonctionnement">Fonctionnement</a>
+      <a href="studio.html">Le Studio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main id="contenu">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Création multilingue · Publication responsable</p>
+        <h1>Des histoires qui font <em>grandir</em> l’imaginaire.</h1>
+        <p class="hero-lead">PhenixKids imagine, produit et publie des aventures animées éducatives en français, anglais et arabe. Notre Studio réunit chaque étape, du scénario à la mise en ligne.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="studio.html">Découvrir le Studio <span>→</span></a>
+          <a class="button button-quiet" href="#fonctionnement">Voir le parcours</a>
+        </div>
+        <ul class="trust-list" aria-label="Engagements PhenixKids">
+          <li>Contenu original</li><li>Validation humaine</li><li>Protection des enfants</li>
+        </ul>
+      </div>
+      <div class="hero-art reveal delay-1" aria-label="Illustration de l’atelier PhenixKids">
+        <div class="sun"></div>
+        <div class="story-card story-card-main">
+          <span class="card-kicker">Série en cours</span><div class="moon" aria-hidden="true">✦</div>
+          <h2>Luna la Licorne</h2><p>Une nouvelle aventure sur le courage et l’amitié.</p>
+          <div class="progress"><span></span></div><small>Prête pour la validation</small>
+        </div>
+        <div class="floating-note note-one">FR · EN · AR</div><div class="floating-note note-two">Format vertical 9:16</div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      </div>
+    </section>
+    <section id="mission" class="manifesto section-shell reveal">
+      <p class="section-index">01 — Notre mission</p>
+      <div><h2>Une chaîne jeunesse pensée avec soin, pas une usine à contenu.</h2><p>Chaque épisode suit une ligne éditoriale claire : une histoire accessible, une valeur positive et une vérification avant publication. Le Studio nous aide à conserver les personnages, les langues et la qualité visuelle d’un épisode à l’autre.</p></div>
+    </section>
+    <section id="fonctionnement" class="workflow section-shell">
+      <div class="section-heading reveal"><p class="section-index">02 — Comment ça fonctionne</p><h2>Du premier mot à la publication.</h2><p>Un parcours lisible, avec un contrôle humain avant que la vidéo ne quitte le Studio.</p></div>
+      <ol class="workflow-grid">
+        <li class="reveal"><span>01</span><h3>Écrire</h3><p>Le thème devient un scénario adapté au jeune public et cohérent avec la série.</p></li>
+        <li class="reveal delay-1"><span>02</span><h3>Créer</h3><p>Illustrations, narration et montage sont assemblés dans les formats requis.</p></li>
+        <li class="reveal delay-2"><span>03</span><h3>Vérifier</h3><p>Durée, images, audio, lisibilité et sécurité éditoriale sont contrôlés.</p></li>
+        <li class="reveal delay-3"><span>04</span><h3>Publier</h3><p>Le propriétaire autorisé choisit le compte, la confidentialité et confirme l’envoi.</p></li>
+      </ol>
+    </section>
+    <section class="integration-band">
+      <div class="section-shell integration-grid">
+        <div class="reveal"><p class="section-index light">03 — Intégration TikTok</p><h2>Une autorisation claire. Un compte choisi. Aucun mot de passe partagé.</h2></div>
+        <div class="integration-copy reveal delay-1">
+          <p>PhenixKids utilise les API officielles TikTok pour identifier le compte autorisé et lui envoyer une vidéo finalisée, soit comme brouillon à compléter dans TikTok, soit en publication directe après confirmation des paramètres.</p>
+          <ul class="check-list"><li>Connexion via TikTok Login Kit</li><li>Accès limité au profil de base</li><li>Révocation possible depuis TikTok</li><li>Pas de vente de données personnelles</li></ul>
+          <a class="text-link light" href="studio.html#tiktok">Voir le détail de l’intégration →</a>
+        </div>
+      </div>
+    </section>
+    <section class="languages section-shell reveal">
+      <div><p class="section-index">04 — Trois langues</p><h2>Une même histoire, trois façons de la raconter.</h2></div>
+      <div class="language-cards"><article><strong>Bonjour</strong><span>Français</span></article><article><strong>Hello</strong><span>English</span></article><article lang="ar" dir="rtl"><strong>مرحباً</strong><span>العربية</span></article></div>
+    </section>
+    <section class="cta section-shell reveal"><div><p class="eyebrow">Dans les coulisses</p><h2>Explorez le véritable parcours de publication.</h2></div><a class="button button-primary" href="studio.html">Ouvrir la visite du Studio <span>→</span></a></section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-main section-shell">
+      <div class="brand footer-brand"><span class="brand-mark">PK</span><span><strong>PhenixKids</strong><small>Des histoires pour grandir</small></span></div>
+      <div class="footer-links"><strong>Découvrir</strong><a href="studio.html">Le Studio</a><a href="#fonctionnement">Fonctionnement</a><a href="contact.html">Contact</a></div>
+      <div class="footer-links legal-links"><strong>Informations légales</strong><a href="privacy.html">Politique de confidentialité</a><a href="terms.html">Conditions d’utilisation</a></div>
+      <div class="footer-links"><strong>Nos chaînes</strong><a href="https://www.youtube.com/@PhenixKids-u6x" target="_blank" rel="noopener">YouTube ↗</a><a href="https://www.tiktok.com/@phenixkids" target="_blank" rel="noopener">TikTok ↗</a></div>
+    </div>
+    <div class="footer-bottom section-shell"><span>© 2026 PhenixKids</span><span>Montréal, Canada · phenixkids.contact@gmail.com</span></div>
+  </footer>
+  <script src="app.js"></script>
+</body></html>
