@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">PhenixKids PK</title>
+  <desc id="desc">Icône carrée bleu nuit avec les lettres PK jaune soleil et une étincelle corail.</desc>
+  <rect width="1024" height="1024" fill="#17243a"/>
+  <circle cx="800" cy="210" r="126" fill="#ffd247"/>
+  <path d="M163 808V224h231c139 0 231 77 231 197 0 126-97 207-246 207H293v180H163zm130-298h89c69 0 110-31 110-86 0-52-39-81-105-81h-94v167z" fill="#ffd247"/>
+  <path d="M554 808V480h125v132l116-132h150L807 629l151 179H801L679 657v151H554z" fill="#fffdf7"/>
+  <path d="M769 101l27 71 71 27-71 27-27 71-27-71-71-27 71-27 27-71z" fill="#ff7043"/>
+</svg>
